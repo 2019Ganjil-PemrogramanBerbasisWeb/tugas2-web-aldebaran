@@ -1,0 +1,164 @@
+/*
+    warna oren : #ffbe0e
+    warna itemnya : #11332d
+    
+*/
+
+
+body{
+	font-family: sans-serif;
+    background: #f2f2f2;
+    
+}
+
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+
+.kotak_login{
+	width: 500px;
+    height: 720px;
+	background: linear-gradient(#ffbe0e, #d39c03);
+	/*meletakkan form ke tengah*/
+	margin: 0px auto;
+	padding: 10px 20px;
+	box-shadow: 0px 0px 10px 4px #d6d6d6;
+}
+
+.kotak_add{
+    width: 500px;
+    height: 720px;
+	background: linear-gradient(#ffbe0e, #d39c03);
+	/*meletakkan form ke tengah*/
+	margin: 0px auto;
+	padding: 10px 20px;
+	box-shadow: 0px 0px 10px 4px #d6d6d6;
+}
+
+
+
+
+
+.form_login{
+	
+	text-align:center;
+    font-size:.12px;
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+	margin-top: 5;
+	border-radius: 3px;
+	border:none;
+}
+
+.tombol_login{
+	background: #11332d;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	-webkit-transition-duration: 0.4s; 
+ 	transition-duration: 0.4s;
+  	text-decoration: none;
+}
+
+.tombol_login:hover{
+	background: #2aa7e2;
+	color: #11332d;
+	
+}
+
+
+
+.alert{
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
+
+.picik{
+    align-content: center;
+    width : 75px;
+    height: 40px;
+    background: #2aa7e2;
+}
+
+.logo{
+    margin: 10%;
+    margin-left: 200px;
+    width: 100px;
+    float:top;
+}
+
+@font-face{
+	font-family: "kostum";
+	src: url("font/Montserrat-Bold.otf")
+}
+
+.tega {
+	font-family: 'kostum', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+@font-face{
+	font-family: "light";
+	src: url("font/Montserrat-LightItalic.otf")
+}
+
+.light{
+	font-family: "light",Arial, Helvetica,;
+	font-size: 12px;
+}
+
+.link{
+	font-family: "light";
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.lg{
+width: 10vh;
+}
+
+@font-face{
+	font-family: "ligin";
+	src: url("font/Montserrat-Regular.otf")
+}
+
+.lons{
+	font-family: "ligin",Arial, Helvetica;
+	color: #11332d;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+label{
+	font-family: 'ligin';
+	font-size: 11pt;
+	padding-bottom: 10px;
+
+}
+
+#formItem label {
+    text-align:center;
+    line-height:100%;
+    font-size:.85em;
+}
