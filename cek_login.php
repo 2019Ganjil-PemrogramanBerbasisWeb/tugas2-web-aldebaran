@@ -19,8 +19,11 @@ if($cek > 0){
 	session_start();
 	$_SESSION['Nama_Pengguna'] = $nama;
 	$_SESSION['status'] = "login";
+	
+  
+  	setcookie("message","delete",time()-1); // Kita delete cookie message
 	header("location:homepage.php");
 }else{
-	header("location:index.php?pesan=gagal");
+	header("location:login.php?pesan=gagal");
 }
 ?>

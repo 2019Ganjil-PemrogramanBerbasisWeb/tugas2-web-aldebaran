@@ -11,11 +11,25 @@
     <a href="homepage.php"><img class="logo" src="logo/tu.png" ></a>
 
     <form action="add.php" method="post" name="form1">
-        <table width="75%" >
-           
+
+ 			<center><label><b>Nama Lengkap</b></label></center>
+            <input type="text" name="Nama_Pengguna" class="form_login" placeholder=". . ."  required="required">
+            
+            <center><label><b>Nama Pengguna</b></label></center>
+            <input type="text" name="Nama" class="form_login" placeholder=". . ."  required="required">
+            
+            <center><label><b>No.HP</b></label></center>
+            <input type="text" name="No_hp" class="form_login" placeholder=". . ."  required="required">
+
+            <center><label><b>Email</b></label></center>
+            <input type="text" name="Email" class="form_login" placeholder=". . ."  required="required">
+            
+            <center><label><b>Kata Sandi</b></label></center>
+			<input type="password" name="password" class="form_login" placeholder=". . ."  required="required">
+    <!--<table width="100%" >   
             <tr> 
                 <td>Nama</td>
-                <td ><input width="75px" type="text" name="Nama" required></td>
+                <td ><input type="text" name="Nama" required></td>
             </tr>
             <tr> 
                 <td>Nama Pengguna</td>
@@ -31,13 +45,14 @@
             </tr>
             <tr> 
                 <td>Kata Sandi</td>
-                <td><input type="text" name="password" required></td>
+                <td><input type="password" name="password" required></td>
             </tr>
-            <tr> 
+    </table>*/-->
+        
+        <tr> 
                 <td></td>
-                <td ><input class="picik" type="submit" name="Submit" value="Add"></td>
-            </tr>
-        </table>
+                <td ><input class="tombol_login" type="submit" name="Submit" value="Daftar"></td>
+        </tr>
         <center>
 				<a class="link">Sudah punya akun ? masuk <a class="link" href="login.php"><b>disini</b></a></a>
 		</center>
