@@ -73,7 +73,7 @@
         include_once("koneksi.php");
 
         // Insert user data into table
-        $result = mysqli_query($koneksi, "INSERT INTO akun(Nama,Nama_Pengguna,No_hp,email,password) VALUES('$nama','$username','$email','$nomor','$password')");
+        $result = mysqli_query($koneksi, "INSERT INTO akun(Nama,Nama_Pengguna,No_hp,email,password) VALUES('$nama','$username','$nomor','$email','$password')");
 
         // Show message when user added
         echo "User added successfully. <a href='index.php'>View Users</a>";
