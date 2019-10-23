@@ -35,7 +35,7 @@ h1{
 
 .kotak_add{
     width: 500px;
-    height: 720px;
+    height: 1000px;
 	background: linear-gradient(#ffbe0e, #d39c03);
 	/*meletakkan form ke tengah*/
 	margin: 0px auto;
@@ -161,4 +161,88 @@ label{
     text-align:center;
     line-height:100%;
     font-size:.85em;
+}
+
+.photo{
+	background-color: #2aa7e2;
+	font-size:.12px;
+	box-sizing : border-box;
+	width: 150px;
+	padding: 10px;
+	font-size: 11pt;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	margin-top: 5;
+	border-radius: 3px;
+	border:none;
+
+}
+
+.upload-btn-wrapper {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+  }
+  
+  .btn {
+	border: 2px solid gray;
+	color: gray;
+	background-color: white;
+	padding: 8px 20px;
+	border-radius: 8px;
+	font-size: 20px;
+	font-weight: bold;
+	overflow: hidden;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+	font-size: 100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+  }
+
+  .inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+  .inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.custom-file-upload {
+	background-color: rgb(33, 124, 209);
+	color:white;
+    display: inline-block;
+    padding: 6px 12px;
+	cursor: pointer;
+	text-align:center;
+    box-sizing : border-box;
+	width: 50%;
+	height: 40px;
+	font-size: 16pt;
+	margin-bottom: 20px;
+	margin-top: 5;
+	border-radius: 3px;
+	border:none;
+}
+
+.custom-file-upload:hover{
+	color: white;
+	background-color:rgb(21, 85, 145) ;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
 }

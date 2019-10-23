@@ -1,9 +1,18 @@
+<?php
+    require_once "koneksi.php";
+    session_start();
+    if (empty($_SESSION['Nama_Pengguna'])) {
+        header("Location:login.php");
+    }
+    
+?>
+
 <!DOCTYPE HTML>
 <html>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tu.skul &mdash; </title>
+	<title>Tu.skul&mdash;profil</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content=" " />
 	<meta name="keywords" content=" " />
@@ -52,7 +61,9 @@
 
 	</head>
 	<body>
-		
+    <?php    
+    session_start();
+    ?>	
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
@@ -61,7 +72,7 @@
 			<div class="top-menu">
 				<div class="row">
 					<div class="col-md-12 col-offset-0 text-center">
-						<div id="fh5co-logo"><a href="index.html"><img src="logo/tu.png" width="150px" ></a></div>
+						<div id="fh5co-logo"><a href="index.php"><img src="logo/tu.png" width="150px" ></a></div>
 					</div>
 					<div class="col-md-12 col-md-offset-0 text-center menu-1">
 						<ul>
@@ -79,7 +90,7 @@
 							<li class="has-dropdown" class="active">
 								<a href="akun.html">Akun</a>
 									<ul class="dropdown">
-										<li><a href="profil.html">Profil</a></li>
+										<li><a href="profil.php">Profil</a></li>
 										<li><a href="logout.php">Log out</a></li>
 									</ul>
 							</li>
@@ -100,11 +111,14 @@
 			   		<div class="overlay"></div>01
 			   		<div class="container-fluid">
 			   			<div class="row">
-				   			<div class="col-md-6 col-md-offset-3 text-center slider-text">
+				   			<div class="col-md-6 col-md-offset-3 text-center">
 				   				<div class="slider-text-inner">
-				   					<h1>About Us</h1>
-										<h2>Free html5 templates Made by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
-				   				</div>
+                                    <div class="profil">
+                                    <img class=" "src="images/<?php echo $_SESSION['photo'] ?>" />
+                                    </div>
+                                    <h1><?php echo  $_SESSION["Nama_Pengguna"]?></h1>
+                                    <p><?php echo  $_SESSION["Nama"]?></p>
+                                </div>
 				   			</div>
 				   		</div>
 			   		</div>
@@ -114,29 +128,16 @@
 		</aside>
 		<div id="fh5co-about">
 			<div class="row">
-				<div class="col-md-4">
-					<h3>Daily Verse</h3>
+				<div >
+					<h3>Data Diri #pemberiperubahan</h3>
 					<blockquote class="dailyVerse">
-						<p>&ldquo;The LORD [is] my strength and my shield; my heart trusted in him, and I am helped: therefore my heart greatly rejoiceth; and with my song will I praise him.&rdquo;</p>
-						<span>Psalms 28:7</span>
+                        <p>Nama Lengkap     : <?php echo $_SESSION['Nama'] ?></p>
+                        <p>Nama Pengguna    : <?php echo $_SESSION['Nama_Pengguna'] ?></p>
+                        <p>Email            : <?php echo $_SESSION['email'] ?></p>
+                        <p>Nomor Handphone  : <?php echo $_SESSION['No_hp'] ?></p>
 					</blockquote>
 				</div>
-				<div class="col-md-4">
-					<h3>Our Mission</h3>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-				<div class="col-md-4">
-					<h3>Our Ministries</h3>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-					<ul class="ministries-list">
-						<li><i class="icon-check"></i>Dignissimos asperiores vitae velit</li>
-						<li><i class="icon-check"></i>Odit ab aliquam dolor eius.</li>
-						<li><i class="icon-check"></i>Asperiores vitae velit veniam totam</li>
-						<li><i class="icon-check"></i>Asccusamus alias autem provident</li>
-					</ul>
-				</div>
+
 			</div>
 		</div>
 		
