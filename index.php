@@ -85,7 +85,7 @@
 									
 								</ul>
 							</li>
-							<li><a href="inbox.html">Inbox</a></li>
+							<li><a href="inbox.php">Inbox</a></li>
 							<li class="has-dropdown">
 								<a href="akun.html">Akun</a>
 									<ul class="dropdown">
@@ -115,7 +115,7 @@
 				   				<div class="slider-text">
 					   				<div class="slider-text-inner">
 					   					<h1><b>DONASI SEKARANG !</b></h1>
-											<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"> <i class="icon-play4"></i> DONASI</a> 
+											<p><a class="btn btn-primary btn-demo" href="login.php"> <i class="icon-play4"></i> DONASI</a> 
 												</p>
 					   				</div>
 				   				</div>
