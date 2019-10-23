@@ -1,3 +1,14 @@
+<?php
+    require_once "koneksi.php";
+    session_start();
+    if (empty($_SESSION['Nama_Pengguna'])) {
+        header("Location:login.php");
+    }
+    
+?>
+
+
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -50,12 +61,6 @@
 
 	</head>
 	<body>
-	<?php
-		session_start();
-		if( ! isset($_SESSION['Nama_Pengguna'])){
-		header("location:login.php?pesan=gagal");
-		}
-	?>
 	<div class="fh5co-loader"></div>	
 	<div id="page">
 	<nav class="fh5co-nav" role="navigation">
@@ -85,7 +90,7 @@
 							<li class="has-dropdown">
 								<a href="akun.html">Akun</a>
 									<ul class="dropdown">
-										<li><a href="profil.html">Profil</a></li>
+										<li><a href="profil.php">Profil</a></li>
 										<li><a href="logout.php">Log out</a></li>
 									</ul>
 							</li>
@@ -110,6 +115,7 @@
 				   				<div class="slider-text">
 					   				<div class="slider-text-inner">
 									   <h1>Selamat datang <?php echo $_SESSION['Nama_Pengguna']; ?></h1>
+									   <p>Hallo <?php echo $_SESSION['email']; ?></p>
   									   <h1><b>DONASI SEKARANG !</b></h1>
 											<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"> <i class="icon-play4"></i> DONASI</a> 
 												</p>
