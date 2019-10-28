@@ -2,7 +2,7 @@
     require_once "koneksi.php";
     session_start();
     if (empty($_SESSION['Nama_Pengguna'])) {
-        header("Location:login.php");
+        header("Location:index.php");
     }
     
 ?>
@@ -86,9 +86,9 @@
 									
 								</ul>
 							</li>
-							<li><a href="inbox.html">Inbox</a></li>
+							<li><a href="inbox.php">Inbox</a></li>
 							<li class="has-dropdown">
-								<a href="akun.html">Akun</a>
+								<a href="profil.php">Akun</a>
 									<ul class="dropdown">
 										<li><a href="profil.php">Profil</a></li>
 										<li><a href="logout.php">Log out</a></li>
@@ -115,9 +115,9 @@
 				   				<div class="slider-text">
 					   				<div class="slider-text-inner">
 									   <h1>Selamat datang <?php echo $_SESSION['Nama_Pengguna']; ?></h1>
-									   <p>Hallo <?php echo $_SESSION['email']; ?></p>
+									   <h2>Sudah siap memberi perubahan hari ini ?</h2>
   									   <h1><b>DONASI SEKARANG !</b></h1>
-											<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"> <i class="icon-play4"></i> DONASI</a> 
+											<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://www.youtube.com/watch?v=k096O5M-c44"> <i class="icon-play4"></i> DONASI</a> 
 												</p>
 					   				</div>
 				   				</div>
@@ -167,6 +167,7 @@
 						<div class="desc">
 							<h3><a href="#">Fina ingin bersekolah di SMAN 1 Jember</a></h3>
 							<p>Bantu Fina dengan berdonasi agar dapat melanjutkan pendidikannya ke jenjang pendidikan SMA, yaitu pada sekolah impiannya di SMAN 1 Jember.</p>
+							
 						</div>
 					</div>
 				</div>
@@ -175,7 +176,8 @@
 						<a href="#" class="img-holder"><img class="img-responsive" src="images/img_bg_2.jpg" alt="Free HTML5 Website Template by freehtml5.co"></a>
 						<div class="desc">
 							<h3><a href="#">Bantu Iqbal agar dapat bersekolah di sekolah favoritnya</a></h3>
-							<p>Bantu Iqbal agar dapat melanjutkan sekolah di SMA favoritnya. Iqbal memiliki cita-cita yang sangat mulia yaitu menjadi seorang guru</p>
+							<p>Bantu Iqbal agar dapat melanjutkan sekolah di SMA favoritnya. Sekolah favoritnya adalah SMAN 1 Samarinda. Iqbal memiliki cita-cita yang sangat mulia yaitu menjadi seorang guru</p>
+							
 						</div>
 					</div>
 				</div>
@@ -185,6 +187,7 @@
 						<div class="desc">
 							<h3><a href="#">Kini Ria sudah dapat melanjutkan sekolahnya dan mendapat prestasi</a></h3>
 							<p>Sekarang Ria sudah dapat melanjutkan sekolahnya dan ia juga dapat membuktikan bahwa ia dapat menjadi siswi yang berprestasi di SMA nya saat ini.</p>
+							
 						</div>
 					</div>
 				</div>
