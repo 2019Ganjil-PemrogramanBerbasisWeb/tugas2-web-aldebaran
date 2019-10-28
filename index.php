@@ -78,10 +78,10 @@
 							<li class="active"><a href="homepage.php">Home</a></li>
 							<li><a href="donasi_saya.php">Donasi Saya</a></li>
 							<li class="has-dropdown">
-								<a href="galangdana.html">Galang Dana</a>
+								<a href="galdan.php">Galang Dana</a>
 								<ul class="dropdown">
-									<li><a href="#">Mahasiswa</a></li>
-									<li><a href="#">SMA</a></li>
+									<li><a href="galdan.php">Mahasiswa</a></li>
+									<li><a href="galdan.php">SMA</a></li>
 									
 								</ul>
 							</li>
@@ -155,7 +155,7 @@
 			<div class="row animate-box">
 				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
 					<h2>Bantu siapa hari ini ?</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<p>Kami menyediakan layanan bantuan berupa dana yang dapat anda sumbangkan untuk adik-adik kita yang putus sekolah agar dapat melanjutkan kembali pendidikannya.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -163,8 +163,9 @@
 					<div class="services">
 						<a href="#" class="img-holder"><img class="img-responsive" src="images/img_bg_1.jpg"></a>
 						<div class="desc">
-							<h3><a href="#">Iqbal ingin bersekolah Di SMAN 2 Bali</a></h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<h3><a href="#">Fina ingin bersekolah di SMAN 1 Jember</a></h3>
+							<p>Bantu Fina dengan berdonasi agar dapat melanjutkan pendidikannya ke jenjang pendidikan SMA, yaitu pada sekolah impiannya di SMAN 1 Jember.</p>
+							
 						</div>
 					</div>
 				</div>
@@ -172,8 +173,9 @@
 					<div class="services">
 						<a href="#" class="img-holder"><img class="img-responsive" src="images/img_bg_2.jpg" alt="Free HTML5 Website Template by freehtml5.co"></a>
 						<div class="desc">
-							<h3><a href="#">Biblical Counseling</a></h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<h3><a href="#">Bantu Iqbal agar dapat bersekolah di sekolah favoritnya</a></h3>
+							<p>Bantu Iqbal agar dapat melanjutkan sekolah di SMA favoritnya. Sekolah favoritnya adalah SMAN 1 Samarinda. Iqbal memiliki cita-cita yang sangat mulia yaitu menjadi seorang guru</p>
+							
 						</div>
 					</div>
 				</div>
@@ -181,14 +183,14 @@
 					<div class="services">
 						<a href="#" class="img-holder"><img class="img-responsive" src="images/img_bg_3.jpg" alt="Free HTML5 Website Template by freehtml5.co"></a>
 						<div class="desc">
-							<h3><a href="#">Helping Children</a></h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<h3><a href="#">Kini Ria sudah dapat melanjutkan sekolahnya dan mendapat prestasi</a></h3>
+							<p>Sekarang Ria sudah dapat melanjutkan sekolahnya dan ia juga dapat membuktikan bahwa ia dapat menjadi siswi yang berprestasi di SMA nya saat ini.</p>
+							
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
 		
 		<div id="fh5co-bible-verse">
 			<div class="overlay"></div>
@@ -334,4 +336,5 @@
 
 	</body>
 </html>
+
 
