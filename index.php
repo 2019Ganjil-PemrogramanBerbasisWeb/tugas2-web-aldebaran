@@ -241,8 +241,8 @@
 						<a href="#" class="img-holder"><img class="img-responsive" src="images/img-1.jpg" alt="Free HTML5 Website Template by freehtml5.co"></a>
 						<div class="desc">
 							<span class="date">March 30, 2017</span>
-							<h3><a href="#">Live News</a></h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<h3><a href="#">Universitas Indonesia</a></h3>
+							<p>Universitas Indonesia disingkat sebagai UI, adalah sebuah perguruan tinggi di Indonesia. Kampus utamanya terletak di bagian Utara dari Depok, Jawa Barat tepat di perbatasan antara Depok dengan wilayah Jakarta Selatan, dan kampus utama lainnya terdapat di daerah Salemba di Jakarta Pusat.</p>
 							
 						</div>
 					</div>
@@ -252,8 +252,8 @@
 						<a href="#" class="img-holder"><img class="img-responsive" src="images/img-3.jpg" alt="Free HTML5 Website Template by freehtml5.co"></a>
 						<div class="desc">
 							<span class="date">March 30, 2017</span>
-							<h3><a href="#">Biblical Counseling</a></h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<h3><a href="#">Institut Pertanian Bogor</a></h3>
+							<p>Institut Pertanian Bogor adalah sebuah perguruan tinggi pertanian negeri yang berkedudukan di Bogor. Sebelum diresmikan pada tahun 1963, IPB adalah sebuah fakultas pertanian pada Universitas Indonesia.</p>
 							
 						</div>
 					</div>
@@ -263,8 +263,8 @@
 						<a href="#" class="img-holder"><img class="img-responsive" src="images/img-2.jpg" alt="Free HTML5 Website Template by freehtml5.co"></a>
 						<div class="desc">
 							<span class="date">March 30, 2017</span>
-							<h3><a href="#">Helping Children</a></h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<h3><a href="#">Universitas Negeri Malang</a></h3>
+							<p>Institut Pertanian Bogor adalah sebuah perguruan tinggi pertanian negeri yang berkedudukan di Bogor. Sebelum diresmikan pada tahun 1963, IPB adalah sebuah fakultas pertanian pada Universitas Indonesia.</p>
 							
 						</div>
 					</div>
@@ -274,15 +274,41 @@
 						<a href="#" class="img-holder"><img class="img-responsive" src="images/img-4.jpg" alt="Free HTML5 Website Template by freehtml5.co"></a>
 						<div class="desc">
 							<span class="date">March 30, 2017</span>
-							<h3><a href="#">Helping Children</a></h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+							<h3><a href="#">Institut Teknologi Sepuluh Nopember</a></h3>
+							<p>Institut Teknologi Sepuluh Nopember adalah perguruan tinggi negeri yang terletak di Surabaya. ITS awalnya didirikan oleh Yayasan Perguruan Tinggi Teknik yang diketuai oleh dr. Angka Nitisastro.</p>
 							
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div><!-- END container-wrap -->
+	</div>
+
+	<div class="container-wrap">
+		<footer id="fh5co-footer" role="contentinfo">
+			<div class="col-md-4 text-center">
+				<h3>Institut Teknologi Sepuluh Nopember Surabaya</h3>
+			</div>
+			<div class="col-md-4 text-center">
+				<h2><a href="#">tuskul</a></h2>
+			</div>
+			<div class="col-md-4 text-center">
+				<p>
+					<ul class="fh5co-social-icons">
+						<li><a href="#"><i class="icon-twitter2"></i></a></li>
+						<li><a href="#"><i class="icon-facebook2"></i></a></li>
+						<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+					</ul>
+				</p>
+			</div>
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					
+				</div>
+			</div>
+		</footer>
+		</div>
+	</div>
 
 	<div class="container-wrap">
 		<footer id="fh5co-footer" role="contentinfo">
@@ -336,5 +362,4 @@
 
 	</body>
 </html>
-
 
