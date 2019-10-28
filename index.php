@@ -243,7 +243,7 @@
 							<span class="date">March 30, 2017</span>
 							<h3><a href="#">Live News</a></h3>
 							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
+							
 						</div>
 					</div>
 				</div>
@@ -254,7 +254,7 @@
 							<span class="date">March 30, 2017</span>
 							<h3><a href="#">Biblical Counseling</a></h3>
 							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
+							
 						</div>
 					</div>
 				</div>
@@ -265,7 +265,7 @@
 							<span class="date">March 30, 2017</span>
 							<h3><a href="#">Helping Children</a></h3>
 							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
+							
 						</div>
 					</div>
 				</div>
@@ -276,7 +276,7 @@
 							<span class="date">March 30, 2017</span>
 							<h3><a href="#">Helping Children</a></h3>
 							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
+							
 						</div>
 					</div>
 				</div>
