@@ -10,12 +10,19 @@
 * 	Template Style 
 *
 * ======================================================= */
+
+/*
+    warna oren : #ffbe0e
+    warna itemnya : #11332d
+    
+*/
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-  color: whitesmoke;
+  color: #11332d;
 
 }
 
