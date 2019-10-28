@@ -1351,4 +1351,22 @@ input[type="text"] {
   opacity: 0;
 }
 
+.profil{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 337px;
+  padding-top: 3%;
+}
+
+.profil img{
+  border-radius: 100%;
+  padding: 54px;
+  border: none;
+  vertical-align: middle;
+  margin-bottom: -46px;
+  border-radius: 100%;
+}
+
+
 /*# sourceMappingURL=style.css.map */
