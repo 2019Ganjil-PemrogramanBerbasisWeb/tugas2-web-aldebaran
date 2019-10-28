@@ -1,9 +1,19 @@
+<?php
+    require_once "koneksi.php";
+    session_start();
+    if (empty($_SESSION['Nama_Pengguna'])) {
+        header("Location:donasiku.php");
+    }
+    
+?>
+
+
 <!DOCTYPE HTML>
 <html>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tu.skul &mdash; </title>
+	<title>tu.skul &mdash; donasi saya </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content=" " />
 	<meta name="keywords" content=" " />
@@ -77,7 +87,7 @@
 									
 								</ul>
 							</li>
-							<li><a href="inbox.html">Inbox</a></li>
+							<li><a href="inbox.php">Inbox</a></li>
 							<li class="has-dropdown">
 								<a href="akun.html">Akun</a>
 									<ul class="dropdown">
@@ -115,12 +125,7 @@
 		  	</div>
 		</aside>
 		<div id="fh5co-sermon">
-			<div class="row animate-box">
-				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-					<h2>DONASI SAYA</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
+
 			<div class="row">
 				<div class="col-md-4 text-center animate-box">
 					<div class="sermon-entry">

@@ -73,7 +73,7 @@
         $nomor = $_POST['No_hp'];
         $email = $_POST['Email'];
         $password = $_POST['password'];
-        $foto = $_POST['photo'];
+        $foto = 'default.png';
 
         $pw= hash('sha256',$password);
 

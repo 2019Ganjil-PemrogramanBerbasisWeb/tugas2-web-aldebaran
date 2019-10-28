@@ -86,9 +86,9 @@
 									
 								</ul>
 							</li>
-							<li><a href="inbox.html">Inbox</a></li>
+							<li><a href="inbox.php">Inbox</a></li>
 							<li class="has-dropdown">
-								<a href="akun.html">Akun</a>
+								<a href="profil.php">Akun</a>
 									<ul class="dropdown">
 										<li><a href="profil.php">Profil</a></li>
 										<li><a href="logout.php">Log out</a></li>
@@ -117,7 +117,7 @@
 									   <h1>Selamat datang <?php echo $_SESSION['Nama_Pengguna']; ?></h1>
 									   <p>Hallo <?php echo $_SESSION['email']; ?></p>
   									   <h1><b>DONASI SEKARANG !</b></h1>
-											<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"> <i class="icon-play4"></i> DONASI</a> 
+											<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://www.youtube.com/watch?v=k096O5M-c44"> <i class="icon-play4"></i> DONASI</a> 
 												</p>
 					   				</div>
 				   				</div>
@@ -176,7 +176,7 @@
 						<a href="#" class="img-holder"><img class="img-responsive" src="images/img_bg_2.jpg" alt="Free HTML5 Website Template by freehtml5.co"></a>
 						<div class="desc">
 							<h3><a href="#">Bantu Iqbal agar dapat bersekolah di sekolah favoritnya</a></h3>
-							<p>Bantu Iqbal agar dapat melanjutkan sekolah di SMA favoritnya. Iqbal memiliki cita-cita yang sangat mulia yaitu menjadi seorang guru</p>
+							<p>Bantu Iqbal agar dapat melanjutkan sekolah di SMA favoritnya. Sekolah favoritnya adalah SMAN 1 Samarinda. Iqbal memiliki cita-cita yang sangat mulia yaitu menjadi seorang guru</p>
 							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
 						</div>
 					</div>
