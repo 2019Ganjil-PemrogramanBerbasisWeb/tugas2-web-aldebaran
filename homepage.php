@@ -246,7 +246,7 @@
 							<span class="date">March 30, 2017</span>
 							<h3><a href="#">Universitas Indonesia</a></h3>
 							<p>Universitas Indonesia disingkat sebagai UI, adalah sebuah perguruan tinggi di Indonesia. Kampus utamanya terletak di bagian Utara dari Depok, Jawa Barat tepat di perbatasan antara Depok dengan wilayah Jakarta Selatan, dan kampus utama lainnya terdapat di daerah Salemba di Jakarta Pusat.</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
+							
 						</div>
 					</div>
 				</div>
@@ -257,7 +257,7 @@
 							<span class="date">March 30, 2017</span>
 							<h3><a href="#">Institut Pertanian Bogor</a></h3>
 							<p>Institut Pertanian Bogor adalah sebuah perguruan tinggi pertanian negeri yang berkedudukan di Bogor. Sebelum diresmikan pada tahun 1963, IPB adalah sebuah fakultas pertanian pada Universitas Indonesia.</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
+							
 						</div>
 					</div>
 				</div>
@@ -268,7 +268,7 @@
 							<span class="date">March 30, 2017</span>
 							<h3><a href="#">Universitas Negeri Malang</a></h3>
 							<p>Institut Pertanian Bogor adalah sebuah perguruan tinggi pertanian negeri yang berkedudukan di Bogor. Sebelum diresmikan pada tahun 1963, IPB adalah sebuah fakultas pertanian pada Universitas Indonesia.</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
+							
 						</div>
 					</div>
 				</div>
@@ -279,7 +279,7 @@
 							<span class="date">March 30, 2017</span>
 							<h3><a href="#">Institut Teknologi Sepuluh Nopember</a></h3>
 							<p>Institut Teknologi Sepuluh Nopember adalah perguruan tinggi negeri yang terletak di Surabaya. ITS awalnya didirikan oleh Yayasan Perguruan Tinggi Teknik yang diketuai oleh dr. Angka Nitisastro.</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
+							
 						</div>
 					</div>
 				</div>
@@ -339,5 +339,4 @@
 
 	</body>
 </html>
-
 
