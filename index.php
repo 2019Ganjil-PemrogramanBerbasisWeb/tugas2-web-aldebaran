@@ -165,7 +165,6 @@
 						<div class="desc">
 							<h3><a href="#">Iqbal ingin bersekolah Di SMAN 2 Bali</a></h3>
 							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
 						</div>
 					</div>
 				</div>
@@ -175,7 +174,6 @@
 						<div class="desc">
 							<h3><a href="#">Biblical Counseling</a></h3>
 							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
 						</div>
 					</div>
 				</div>
@@ -185,7 +183,6 @@
 						<div class="desc">
 							<h3><a href="#">Helping Children</a></h3>
 							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
 						</div>
 					</div>
 				</div>
