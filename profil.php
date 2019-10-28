@@ -12,7 +12,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tu.skul&mdash;profil</title>
+	<title>tu.skul&mdash;profil</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content=" " />
 	<meta name="keywords" content=" " />
@@ -61,9 +61,6 @@
 
 	</head>
 	<body>
-    <?php    
-    session_start();
-    ?>	
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
@@ -81,14 +78,14 @@
 							<li class="has-dropdown">
 								<a href="galangdana.html">Galang Dana</a>
 								<ul class="dropdown">
-									<li><a href="#">Mahasiswa</a></li>
+									<li><a href="galangdam">Mahasiswa</a></li>
 									<li><a href="#">SMA</a></li>
 									
 								</ul>
 							</li>
-							<li><a href="inbox.html">Inbox</a></li>
+							<li><a href="inbox.php">Inbox</a></li>
 							<li class="has-dropdown" class="active">
-								<a href="akun.html">Akun</a>
+								<a href="akun.php">Akun</a>
 									<ul class="dropdown">
 										<li><a href="profil.php">Profil</a></li>
 										<li><a href="logout.php">Log out</a></li>
@@ -108,7 +105,7 @@
 			<div class="flexslider">
 				<ul class="slides">
 			   	<li style="background-image: url(images/profilakun.jpg);">
-			   		<div class="overlay"></div>01
+			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
 				   			<div class="col-md-6 col-md-offset-3 text-center">
@@ -131,17 +128,32 @@
 				<div >
 					<h3>Data Diri #pemberiperubahan</h3>
 					<blockquote class="dailyVerse">
-                        <p>Nama Lengkap     : <?php echo $_SESSION['Nama'] ?></p>
-                        <p>Nama Pengguna    : <?php echo $_SESSION['Nama_Pengguna'] ?></p>
-                        <p>Email            : <?php echo $_SESSION['email'] ?></p>
-                        <p>Nomor Handphone  : <?php echo $_SESSION['No_hp'] ?></p>
+
+                    <table>
+					<tr>
+						<td>Nama Lengkap</td>
+						<td><?php echo " : "; echo $_SESSION['Nama'] ?></td>
+					</tr>
+					<tr>
+						<td>Nama Pengguna</td>
+						<td><?php echo " : "; echo $_SESSION['Nama_Pengguna'] ?></td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td><?php echo " : "; echo $_SESSION['email'] ?></td>
+					</tr>
+					<tr>
+						<td>No.HP</td>
+						<td><?php echo " : "; echo $_SESSION['No_hp'] ?></td>
+					</tr>
+					</table>		
 					</blockquote>
 				</div>
 
 			</div>
 		</div>
 		
-	</div><!-- END container-wrap -->
+	</div>
 
 	<div class="container-wrap">
 		<footer id="fh5co-footer" role="contentinfo">

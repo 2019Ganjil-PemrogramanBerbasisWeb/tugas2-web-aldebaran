@@ -1,3 +1,15 @@
+<?php
+    require_once "koneksi.php";
+    session_start();
+    if (empty($_SESSION['Nama_Pengguna'])) {
+        header("Location:box.php");
+    }
+    
+?>
+
+
+
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -65,7 +77,7 @@
 					</div>
 					<div class="col-md-12 col-md-offset-0 text-center menu-1">
 						<ul>
-							<li class="active"><a href="homepage.php">Home</a></li>
+							<li ><a href="homepage.php">Home</a></li>
 							<li><a href="donasi_saya.php">Donasi Saya</a></li>
 							<li class="has-dropdown">
 								<a href="galangdana.html">Galang Dana</a>
@@ -75,52 +87,19 @@
 									
 								</ul>
 							</li>
-							<li><a href="inbox.html">Inbox</a></li>
+							<li class="active"><a href="inbox.php">Inbox</a></li>
 							<li class="has-dropdown">
-								<a href="akun.html">Akun</a>
+								<a href="profil.php">Akun</a>
 									<ul class="dropdown">
-                                        <li><a href="login.php">Login</a></li>
-                                        <li><a href="add.php">Daftar</a></li>
-										<li><a href="tentang.php">Tentang Kami</a></li>
+										<li><a href="profil.php">Profil</a></li>
+										<li><a href="logout.php">Log out</a></li>
 									</ul>
 							</li>
 							
 							
 						</ul>
                     </div>
-                    <div class="col-md-4 animate-box">
-                                <?php 
-                                if(isset($_GET['pesan'])){
-                                    if($_GET['pesan']=="gagal"){
-                                        echo "<div class='alert'>Username dan Password tidak sesuai !</div>";
-                                    }
-                                }
-                                ?>
-                                <link rel="stylesheet" href="style.css">
-                                    <div class="kotak_login">
-                                    <
-                                    <p class="tega">LOGIN</p>
-                            
-                                    <form action="cek_login.php" method="post">
-                                        <center><label><b>Nama Pengguna</b></label></center>
-                                        <input type="text" name="Nama" class="form_login" placeholder="Username .." required="required">
-                            
-                                        <center><label><b>Kata Sandi</b></label></center>
-                                        <input type="password" name="sandi" class="form_login" placeholder="Password .." required="required">
-                            
-                                        <input type="submit" class="tombol_login" value="MASUK" >
-                            
-                                        <br/>
-                                        <br/>
-                                        <center>
-                                            <a class="link">belum punya akun ? daftar <a class="link" href="add.php"><b>disini</b></a></a>
-                                        </center>
-                                    </form>
-            
-                                    </div>
-                            </link>
-                    </div>
-                    
+                                       
 				</div>
 				
 			</div>
