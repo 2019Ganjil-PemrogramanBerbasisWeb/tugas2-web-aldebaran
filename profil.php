@@ -3,7 +3,12 @@
     session_start();
     if (empty($_SESSION['Nama_Pengguna'])) {
         header("Location:login.php");
-    }
+	}
+	$nama = $_SESSION['Nama_Pengguna'];
+	//$data = mysqli_query($koneksi,"select * from akun where Nama_Pengguna='$nama' and password='$hash'");
+	//$cek = mysqli_num_rows($data);
+	$foto = mysqli_query($koneksi,"SELECT photo FROM akun WHERE Nama_Pengguna='$nama'");
+	$ft = mysqli_fetch_assoc($foto);
     
 ?>
 
@@ -111,7 +116,7 @@
 				   			<div class="col-md-6 col-md-offset-3 text-center">
 				   				<div class="slider-text-inner">
                                     <div class="profil">
-                                    <img class=" "src="images/<?php echo $_SESSION['photo'] ?>" />
+                                    <img src="images/profil/<?php echo $ft['photo'] ?>" />
                                     </div>
                                     <h1><?php echo  $_SESSION["Nama_Pengguna"]?></h1>
                                     <p><?php echo  $_SESSION["Nama"]?></p>
@@ -146,11 +151,23 @@
 						<td>No.HP</td>
 						<td><?php echo " : "; echo $_SESSION['No_hp'] ?></td>
 					</tr>
-					</table>		
+							
 					</blockquote>
+					</table>
+					
+					
+							
 				</div>
 
 			</div>
+					<div class="kotakganti">
+							<h3>Ganti Foto Profil</h3>
+							<form action="upload.php" method="post" enctype="multipart/form-data">
+							<input type="file" name="file" required="require">
+							<input type="submit" class="prop" name="upload" value="Upload">
+							<a><br>ukuran foto 500px*500px <br>max.1mb <br>jpg/png</a>
+							</form>
+					</div>
 		</div>
 		
 	</div>
