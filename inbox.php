@@ -80,10 +80,10 @@
 							<li ><a href="homepage.php">Home</a></li>
 							<li><a href="donasi_saya.php">Donasi Saya</a></li>
 							<li class="has-dropdown">
-								<a href="galangdana.html">Galang Dana</a>
+								<a href="galdan.php">Galang Dana</a>
 								<ul class="dropdown">
-									<li><a href="#">Mahasiswa</a></li>
-									<li><a href="#">SMA</a></li>
+									<li><a href="galdan.php">Mahasiswa</a></li>
+									<li><a href="galdan.php">SMA</a></li>
 									
 								</ul>
 							</li>
