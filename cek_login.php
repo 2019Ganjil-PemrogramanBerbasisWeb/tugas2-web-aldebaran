@@ -39,7 +39,7 @@ if($cek > 0){
 	$_SESSION['status'] = "login";
 	
   
-  	setcookie("message","delete",time()-1); // Kita delete cookie message
+  	setcookie("message","delete",time()-1);
 	header("location:homepage.php");
 }else{
 	header("location:login.php?pesan=gagal");
