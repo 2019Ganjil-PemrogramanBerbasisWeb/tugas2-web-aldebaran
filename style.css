@@ -44,6 +44,17 @@ h1{
 	
 }
 
+.kotak_login2{
+	width: 500px;
+    height: 600px;
+	background: linear-gradient(#ffbe0e, #d39c03);
+	/*meletakkan form ke tengah*/
+	margin: 65px auto;
+	padding: 10px 80px;
+	
+	
+}
+
 
 .kotak_add{
     width: 500px;
@@ -258,3 +269,4 @@ label{
 .inputfile + label:hover {
     background-color: red;
 }
+
